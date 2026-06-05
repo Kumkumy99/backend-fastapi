@@ -1,0 +1,35 @@
+git rm -r --cached .# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Build files
+build/
+dist/
+*.egg-info/
